@@ -24,11 +24,13 @@
         android:divider="@android:color/holo_blue_light"
         android:dividerHeight="2dp"
         android:paddingTop="75px"
-        android:layout_gravity="start"
+        android:layout_gravity="end|bottom"
         android:background="#17272B"
         android:layout_width="240dp"
-        android:layout_height="match_parent"
+        android:layout_height="297dp"
         android:id="@+id/drawer"
-        ></ListView>
+        >
+
+    </ListView>
 
 </android.support.v4.widget.DrawerLayout>

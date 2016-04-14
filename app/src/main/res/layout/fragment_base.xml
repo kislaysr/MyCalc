@@ -13,15 +13,14 @@
         android:elevation="32dp"
         android:orientation="vertical">
     <TextView
-
-        android:textDirection="rtl"
+        android:gravity="right"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:layout_height="120dp"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:id="@+id/display1"
         android:text="default"
-        android:maxLength="12"
+        android:maxLength="20"
         android:singleLine="true"
         android:textColor="@android:color/secondary_text_light"
         android:textSize="30dp"
@@ -37,12 +36,13 @@
         android:singleLine="true"
         android:layout_height="120dp"
         android:layout_width="fill_parent"
-        android:id="@+id/diplay2"
+        android:id="@+id/display2"
         android:text="default"
         android:background="#ffffff"
 
         />
   </LinearLayout>
+
     <LinearLayout
         android:background="@android:color/darker_gray"
         android:layout_width="match_parent"
@@ -61,7 +61,7 @@
             >
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
-
+                android:id="@+id/b7"
                 android:layout_row="0"
                 android:layout_column="0"
                 android:textSize="40dp"
@@ -71,6 +71,7 @@
                 android:textColor="#ffffff"/>
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/b4"
                 android:layout_row="1"
                 android:layout_column="0"
                 android:textSize="40dp"
@@ -80,6 +81,7 @@
                 android:textColor="#ffffff"/>
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/b1"
                 android:layout_row="2"
                 android:textSize="40dp"
                 android:text="1"
@@ -89,6 +91,7 @@
                 android:textColor="#ffffff"/>
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/bdot"
                 android:layout_row="3"
                 android:layout_column="0"
                 android:textSize="40dp"
@@ -98,6 +101,7 @@
                 android:textColor="#ffffff"/>
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/b8"
                 android:layout_row="0"
                 android:layout_column="1"
                 android:textSize="40dp"
@@ -107,6 +111,7 @@
                 android:textColor="#ffffff"/>
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/b5"
                 android:layout_row="1"
                 android:layout_column="1"
                 android:textSize="40dp"
@@ -116,6 +121,7 @@
                 android:textColor="#ffffff"/>
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/b2"
                 android:layout_row="2"
                 android:layout_column="1"
                 android:textSize="40dp"
@@ -125,6 +131,7 @@
                 android:textColor="#ffffff"/>
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/b0"
                 android:layout_row="3"
                 android:layout_column="1"
                 android:textSize="40dp"
@@ -134,6 +141,7 @@
                 android:textColor="#ffffff"/>
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/b9"
                 android:layout_row="0"
                 android:layout_column="2"
                 android:textSize="40dp"
@@ -143,6 +151,7 @@
                 android:textColor="#ffffff"/>
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/b6"
                 android:layout_row="1"
                 android:layout_column="2"
                 android:textSize="40dp"
@@ -152,6 +161,7 @@
                 android:textColor="#ffffff"/>
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/b3"
                 android:layout_row="2"
                 android:layout_column="2"
                 android:textSize="40dp"
@@ -161,6 +171,7 @@
                 android:textColor="#ffffff"/>
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/bequal"
                 android:layout_row="3"
                 android:layout_column="2"
                 android:textSize="40dp"
@@ -177,6 +188,7 @@
             android:layout_height="match_parent">
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/bDel"
                 android:layout_row="0"
                 android:layout_column="0"
                 android:textSize="20dp"
@@ -186,6 +198,7 @@
                 android:textColor="#ffffff"/>
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/bDiv"
                 android:layout_row="1"
                 android:layout_column="0"
                 android:textSize="20dp"
@@ -195,6 +208,7 @@
                 android:textColor="#ffffff"/>
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/bMul"
                 android:layout_row="2"
                 android:textSize="20dp"
                 android:text="*"
@@ -204,6 +218,7 @@
                 android:textColor="#ffffff"/>
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/bMin"
                 android:layout_row="3"
                 android:layout_column="0"
                 android:textSize="20dp"
@@ -213,6 +228,7 @@
                 android:textColor="#ffffff"/>
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:id="@+id/bPlus"
                 android:layout_row="4"
                 android:layout_column="0"
                 android:textSize="20dp"
@@ -224,6 +240,7 @@
                 />
         </GridLayout>
     </LinearLayout>
+
 
 
 
